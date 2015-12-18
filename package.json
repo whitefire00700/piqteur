@@ -1,0 +1,36 @@
+{
+  "name": "Event-Application",
+  "version": "1.0.0",
+  "description": "An application for handling events",
+  "keywords": [
+    "Event",
+    "Management",
+    "Photo Sharing"
+  ],
+  "author": {
+    "name": "Kharva Solutions",
+    "email": "dev@kharva.com",
+    "url": "http://www.kharva.com/"
+  },
+  "homepage": "http://www.evet.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openshift/origin-server"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "express": "~3.4.4",
+    "mongodb": "~2.0.43",
+    "mongoose": "~4.1.8"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
+}
